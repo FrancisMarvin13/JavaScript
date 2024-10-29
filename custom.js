@@ -34,4 +34,6 @@ function calculateGrade() {
     let remarks = (grade >= 3.1) ? "Failed" : "Passed"; 
 
     alert("Your Name is: " + name + "\nYour Total Grade is: " + grade.toFixed(2) + "\nRemarks: " + remarks);
+    document.write("<br><br>" + "Your Name is: " + name + "<br>" + "Your Total Grade is: " + grade.toFixed(2) + "<br>" + "Remarks: " + remarks);
+    console.log("Your Name is: " + name + "\nYour Total Grade is: " + grade.toFixed(2) + "\nRemarks: " + remarks);
 }
